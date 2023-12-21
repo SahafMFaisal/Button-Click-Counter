@@ -17,9 +17,9 @@ Make sure you have a web browser to open the HTML file.
 ### Installing
 
 1. Clone the repository to your local machine:
-bash
+```bash
 git clone https://github.com/SahafMFaisal/Button-Click-Counter.git
-
+```
 2. Open the "index.html" file in your preferred web browser.
 
 ## Usage
