@@ -17,4 +17,3 @@ function buttonClick() {
     colorIndex = (colorIndex + 1) % colors.length;
 }
 
-button.addEventListener("click", buttonClick);
