@@ -24,7 +24,7 @@ git clone https://github.com/SahafMFaisal/Button-Click-Counter.git
 
 ## Usage
 
-Click the "Click Here" button to see the click count increase, and watch the button's color cycle through yellow, violet, and pink.
+Click the "Click Here" button to see the click count increase, and watch the button's color cycle through yellow, violet, pink, indigo, orange, blue, green.
 
 ## Contributing
 
