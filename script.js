@@ -1,19 +1,21 @@
-// Initialize click count and color index
-let clickCount = 0;
-let colorIndex = 0;
-const button = document.getElementById("clickButton");
-const clickCountDisplay = document.getElementById("clickCount")
+ let clickCount = 0;
+    let colorIndex = 0;
+    const button = document.getElementById("clickButton");
+    const clickCountDisplay = document.getElementById("clickCount");
 
-const colors = ["yellow", "violet", "pink"];
+    // Array of colors to cycle through
+    const colors = ["yellow", "violet", "pink"];
 
-function buttonClick() {
-    button.style.backgroundColor = colors[colorIndex];
+    // Function to handle button click
+    function buttonClick() {
+        // Increment click count
+        clickCount++;
+        // Update click count display
+        clickCountDisplay.textContent = clickCount;
 
-    colorIndex = (colorIndex + 1) % colors.length;
+        // Change button color
+        button.style.backgroundColor = colors[colorIndex];
 
-    clickCount++;
-
-    clickCountDisplay.textContent = clickCount;
-}
-button.addEventListener("click", buttonClick);
-
+        // Cycle through colors
+        colorIndex = (colorIndex + 1) % colors.length;
+    }
