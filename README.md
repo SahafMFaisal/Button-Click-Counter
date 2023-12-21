@@ -32,4 +32,4 @@ Feel free to contribute to this project. If you have any improvements or new fea
 
 ## License
 
-This project is licensed under the MIT License - see the <a=href"">LICENSE</a>file for details.
+This project is licensed under the MIT License - see the <a=href"https://github.com/SahafMFaisal/Button-Click-Counter?tab=MIT-1-ov-file">LICENSE</a>file for details.
