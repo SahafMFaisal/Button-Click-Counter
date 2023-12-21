@@ -3,7 +3,7 @@
     const button = document.getElementById("clickButton");
     const clickCountDisplay = document.getElementById("clickCount");
 
-    const colors = ["yellow", "violet", "pink"];
+    const colors = ["yellow", "violet", "pink", "indigo", "orange", "blue", "green"];
 
     function buttonClick() {
         clickCount++;
