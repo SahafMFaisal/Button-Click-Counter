@@ -9,5 +9,5 @@
         clickCount++;
         clickCountDisplay.textContent = clickCount;
         button.style.backgroundColor = colors[colorIndex];
-        colorIndex = (colorIndex + 0) % colors.length;
+        colorIndex = (colorIndex + 1) % colors.length;
     }
