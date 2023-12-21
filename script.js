@@ -4,7 +4,7 @@ let colorIndex = 0;
 const button = document.getElementById("clickButton");
 const clickCountDisplay = document.getElementById("clickCount")
 
-const colors = ["red", "green", "blue"];
+const colors = ["yellow", "violet", "pink"];
 
 function buttonClick() {
     button.style.backgroundColor = colors[colorIndex];
